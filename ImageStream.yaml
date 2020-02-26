@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ImageStream
 metadata:
+  name: is_rhos_demo
   labels:
-    app: static
-  name: static
+    app: rh_openshift  
 spec: {}
